@@ -3,11 +3,15 @@
     "**/target": true
   },
   "cSpell.words": [
+    "Blinky",
+    "Bootcamp",
     "disambiguates",
     "Dont",
     "firtool",
     "scalac",
     "scalatest",
+    "svsim",
+    "Verilator",
     "Verilog",
     "Xcheckinit",
     "Ymacro"

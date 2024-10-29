@@ -342,3 +342,4 @@ hs_err_pid*
 # Vscode metals
 .metals
 .bloop
+*.sv

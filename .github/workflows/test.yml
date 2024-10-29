@@ -2,13 +2,13 @@ name: Continuous Integration
 
 on:
   push:
-    tags: ['*']
-    branches: ['main']
+    tags: ["*"]
+    branches: ["main"]
   pull_request:
   workflow_dispatch:
 
 env:
-  verilator-version: v5.022
+  verilator-version: v5.030
   verilator-install-dir: verilator-install
 
 jobs:

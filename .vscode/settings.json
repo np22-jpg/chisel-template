@@ -3,8 +3,12 @@
     "**/target": true
   },
   "cSpell.words": [
+    "disambiguates",
+    "Dont",
+    "firtool",
     "scalac",
     "scalatest",
+    "Verilog",
     "Xcheckinit",
     "Ymacro"
   ]

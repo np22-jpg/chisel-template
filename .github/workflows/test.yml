@@ -17,13 +17,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
       - name: Cleanup
         run: sed -i "s/%NAME%/test/g" build.sc
       - name: Cache Scala
-        uses: coursier/cache-action@v6
+        uses: coursier/cache-action@142d2738bd29f0eb9d44610828acb3a19809feab # v6
       - name: Setup Scala
-        uses: coursier/setup-action@v1
+        uses: coursier/setup-action@62c1c28a0e03df3de0680172df8b829bd80d07a0 # v1
         with:
           jvm: temurin:21
           apps: sbt mill
@@ -32,7 +32,7 @@ jobs:
           sudo apt-get install ccache
       - name: Get Cached Verilator
         id: get-cached-verilator
-        uses: actions/cache@v4
+        uses: actions/cache@6849a6489940f00c2f30c0fb92c6274307ccb58a # v4
         with:
           path: ${{ env.verilator-install-dir }}
           key: verilator-${{ env.verilator-version }}

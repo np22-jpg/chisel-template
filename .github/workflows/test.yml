@@ -23,7 +23,7 @@ jobs:
       - name: Cache Scala
         uses: coursier/cache-action@e47d7d35a0d3a2c7f649ca5c63dfc2bbfaa002e7 # v8
       - name: Setup Scala
-        uses: coursier/setup-action@f7be3eb3dcef84a4e16fc8cd75c87beb2e5cbcc9 # v2
+        uses: coursier/setup-action@7acb5c9ea69bc1a1bb185ec45ebce2ac114f3628 # v2
         with:
           jvm: temurin:21
           apps: sbt mill

@@ -21,7 +21,7 @@ jobs:
       - name: Cleanup
         run: sed -i "s/%NAME%/test/g" build.sc
       - name: Cache Scala
-        uses: coursier/cache-action@c5ca79321d170b8a18c288d9cadc2a6037166d0f # v8
+        uses: coursier/cache-action@e47d7d35a0d3a2c7f649ca5c63dfc2bbfaa002e7 # v8
       - name: Setup Scala
         uses: coursier/setup-action@f7be3eb3dcef84a4e16fc8cd75c87beb2e5cbcc9 # v2
         with:
